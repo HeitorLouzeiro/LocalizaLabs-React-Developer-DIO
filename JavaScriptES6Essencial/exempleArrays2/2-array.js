@@ -1,0 +1,10 @@
+const arrWith3Positions = [1, 2, 3];
+console.log(arrWith3Positions);
+const arrWith3PositionsAndEmpty = Array(3);
+console.log(arrWith3PositionsAndEmpty);
+const arrWith3PositionsAndValues = Array(3, 2);
+console.log(arrWith3PositionsAndValues);
+const person = Array.of('Guilherme', 'Pedro', 'Jennifer');
+console.log(person);
+const numbersAndStrings = Array.of(1, 2, 'Guilherme', 'Pedro');
+console.log(numbersAndStrings);
